@@ -7,6 +7,9 @@ import NavBar from './Components/NavBar/NavBar';
 import Form from './Components/Form/Form';
 import ListActivities from './Components/ListActivities/ListActivities';
 
+import axios from 'axios';
+axios.defaults.baseURL = "https://countries-back-2f4r.onrender.com"
+
 function App() {
   return (
     <BrowserRouter>
