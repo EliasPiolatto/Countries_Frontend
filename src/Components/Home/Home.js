@@ -66,7 +66,7 @@ const error = useSelector((state)=> state.error);
 useEffect(()=>{
   if(error !== '') alert(error);
   dispatch(setError(''))
-}, [error]);
+}, [dispatch, error]);
 
     return (
       <div className="divsHome">

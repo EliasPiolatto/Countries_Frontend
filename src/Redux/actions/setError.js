@@ -1,4 +1,3 @@
-import React from 'react';
 import { SET_ERROR } from './constantes';
 
 

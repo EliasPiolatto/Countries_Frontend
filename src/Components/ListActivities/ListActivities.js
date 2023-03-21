@@ -20,7 +20,7 @@ export default function ListActivities() {
 
   useEffect(()=>{
     dispatch(getActivities())
-  },[activs]);
+  },[dispatch, activs]);
 
     
   function handleDeleteActivity(idAct){
